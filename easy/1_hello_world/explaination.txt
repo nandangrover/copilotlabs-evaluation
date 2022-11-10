@@ -1,0 +1,12 @@
+Name: Hello World
+
+/* Here is the explanation of the code for root language:
+1. Declare a function, helloworld, that takes no arguments and returns nothing.
+2. Declare a function, main, that takes no arguments and returns nothing.
+3. Call the helloworld function in the main function. */
+
+Output:
+
+Root Language: GO
+Test Cases: Correct for Python and Javascript.
+Attempts: Python: 1, Javascript: 1

@@ -1,0 +1,15 @@
+Name: Alphabet Triangle
+
+/* Here is the explanation of the code for root language:
+1. Define a function called alphabetTriangle()
+2. Inside the function, define a for loop that starts at the rune 'A' and ends at 'G'
+3. Inside the first for loop, define another for loop that starts at 'A' and ends at the value of the first loop.
+4. Inside the second loop, print the value of the second loop, which is a rune, and add a space to the end.
+5. Print a newline after the second loop completes.
+6. Call the alphabetTriangle() function. */
+
+Output:
+
+Root Language: GO
+Test Cases: Correct for Python and Javascript.
+Attempts: Python: 1, Javascript: 5

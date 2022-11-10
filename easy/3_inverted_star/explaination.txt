@@ -1,0 +1,18 @@
+/* Here is the explanation of the code for root language:
+1. We import the testing package, which is the package that contains functions used for unit testing.
+2. We define a function TestPrint. The name of this function must start with Test and take a pointer to a testing.T as a parameter.
+3. We store the value of os.Stdout in a variable called rescueStdout. This is where the output from the program will go.
+4. We call the function os.Pipe. This returns three values: a Reader, a Writer, and an error. We assign the Writer to a variable called w, and the Reader to a variable called r.
+5. We assign the Writer to os.Stdout. Any output from the program will now go to the Writer.
+6. We call the invertedStar function, which will print the inverted star pattern to the Writer.
+7. We close the Writer.
+8. We read the output from the Reader and assign it to the variable s.
+9. We assign the original value of os.Stdout to os.Stdout.
+10. We remove any leading or trailing whitespace from the output and the expected value.
+11. We compare the output and the expected value. If they are not equal, we call the Errorf function on the testing.T parameter. This will cause the test to fail. */
+
+Output:
+
+Root Language: GO
+Test Cases: Correct for Python and Javascript.
+Attempts: Python: 2, Javascript: 6
