@@ -1,6 +1,6 @@
 Name: Hello World
 
-/* Here is the explanation of the code for root language:
+""" The code above does the following, explained in English:
 1. Declare a function, helloworld, that takes no arguments and returns nothing.
 2. Declare a function, main, that takes no arguments and returns nothing.
 3. Call the helloworld function in the main function. */

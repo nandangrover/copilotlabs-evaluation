@@ -1,0 +1,17 @@
+Name: Number Pyramid Pattern
+
+/* The code above does the following, explained in English:
+1. The function takes a parameter n, which is a number representing the height of the pyramid.
+2. The function then runs a for loop, which runs as long as i is less than or equal to n.
+3. The for loop contains another for loop, which runs as long as j is less than n-i.
+4. The for loop contains a process.stdout.write() method, which prints a space to the screen.
+5. The for loop then contains a third for loop, which runs as long as k is less than i.
+6. The for loop contains a process.stdout.write() method, which prints the value of i to the screen.
+7. The for loop then contains a process.stdout.write() method, which prints a newline character to the screen.
+8. The function then calls the pyramidPattern() function, passing in the number 5 as an argument. */
+
+Output:
+
+Root Language: Javascript
+Test Cases: Correct for GO and Python.
+Attempts: GO: 1, Python: 1

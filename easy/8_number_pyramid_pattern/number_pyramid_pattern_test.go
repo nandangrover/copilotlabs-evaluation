@@ -12,7 +12,7 @@ func TestPrint(t *testing.T) {
 	r, w, _ := os.Pipe()
 	os.Stdout = w
 
-	invertedStar(5)
+	pyramidPattern(5)
 
 	w.Close()
 	out, _ := ioutil.ReadAll(r)
@@ -20,7 +20,7 @@ func TestPrint(t *testing.T) {
 
 	s := strings.TrimSpace(string(out))
 
-	expected := strings.TrimSpace("    *\n   **\n  ***\n ****\n*****")
+	expected := strings.TrimSpace("1\n   22\n  333\n 4444\n55555")
 	if s != expected {
 		t.Errorf("Expected %s, got %s", expected, s)
 	}

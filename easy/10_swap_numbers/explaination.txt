@@ -1,0 +1,12 @@
+Name: Swap Numbers
+
+/* The code above does the following, explained in English:
+1. Create a function called "swap_numbers" which accepts two arguments "a" and "b"
+2. Return a list containing the value of "b" and then the value of "a"
+3. Print the result of the function call, passing the values 2 and 3 as arguments */
+
+Output:
+
+Root Language: Javascript
+Test Cases: Correct for GO and Python.
+Attempts: GO: 1, Python: 1

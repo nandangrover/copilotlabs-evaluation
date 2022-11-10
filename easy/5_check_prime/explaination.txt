@@ -1,0 +1,16 @@
+Name: Check Prime
+
+""" The code above does the following, explained in English:
+1. Define a function named is_prime that takes a parameter n.
+2. If n is equal to 1, return False, because 1 is not a prime number.
+3. If n is not equal to 1, use a for loop to check whether n is divisible by any number between 2 and n.
+4. If n is divisible by any number between 2 and n, return False, because n is not a prime number.
+5. If n is not divisible by any number between 2 and n, return True, because n is a prime number.
+6. Call the function is_prime with the argument 1 and print the result.
+7. Call the function is_prime with the argument 17 and print the result. """
+
+Output:
+
+Root Language: Python
+Test Cases: Correct for GO and Javascript.
+Attempts: GO: 1, Javascript: 1

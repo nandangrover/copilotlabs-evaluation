@@ -1,6 +1,6 @@
 Name: Alphabet Triangle
 
-/* Here is the explanation of the code for root language:
+""" The code above does the following, explained in English:
 1. Define a function called alphabetTriangle()
 2. Inside the function, define a for loop that starts at the rune 'A' and ends at 'G'
 3. Inside the first for loop, define another for loop that starts at 'A' and ends at the value of the first loop.

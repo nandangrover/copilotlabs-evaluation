@@ -1,4 +1,6 @@
-/* Here is the explanation of the code for root language:
+Name: Alphabet Triangle
+
+""" The code above does the following, explained in English:
 1. We import the testing package, which is the package that contains functions used for unit testing.
 2. We define a function TestPrint. The name of this function must start with Test and take a pointer to a testing.T as a parameter.
 3. We store the value of os.Stdout in a variable called rescueStdout. This is where the output from the program will go.

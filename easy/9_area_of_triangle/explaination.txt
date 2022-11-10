@@ -1,0 +1,12 @@
+Name: Area of Triangle
+
+/* The code above does the following, explained in English:
+1. Declare a function named areaOfTriangle, which takes two parameters: base and height
+2. The function returns the value of the expression base * height / 2
+3. Call the areaOfTriangle function with the arguments 2 and 3. The function returns 3, which is then printed to the console. */
+
+Output:
+
+Root Language: Javascript
+Test Cases: Correct for GO and Python.
+Attempts: GO: 2, Python: 1

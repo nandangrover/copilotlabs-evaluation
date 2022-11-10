@@ -2,18 +2,18 @@ package main
 
 import "fmt"
 
-func invertedStar(n int) {
-	for i := 0; i <= n; i++ {
+func pyramidPattern(n int) {
+	for i := 1; i <= n; i++ {
 		for j := 0; j < n-i; j++ {
 			fmt.Printf(" ")
 		}
 		for k := 0; k < i; k++ {
-			fmt.Printf("*")
+			fmt.Printf("%d", i)
 		}
-		fmt.Println()
+		fmt.Printf("\n")
 	}
 }
 
 func main() {
-	invertedStar(5)
+	pyramidPattern(5)
 }

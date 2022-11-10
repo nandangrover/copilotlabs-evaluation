@@ -1,0 +1,12 @@
+Name: Factorial of Number
+
+/* The code above does the following, explained in English:
+1. If the number is 0, return 1.
+2. Otherwise, return the number multiplied by the result of this function, but with the number decreased by 1.
+3. Call the function and log the results. */
+
+Output:
+
+Root Language: Javascript
+Test Cases: Correct for GO and Python.
+Attempts: GO: 1, Python: 2

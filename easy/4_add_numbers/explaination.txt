@@ -1,13 +1,13 @@
-/* The code above does the following, explained in English:
-1. Define a function called alphabetTriangle()
-2. Inside the function, define a for loop that starts at the rune 'A' and ends at 'G'
-3. Inside the first for loop, define another for loop that starts at 'A' and ends at the value of the first loop.
-4. Inside the second loop, print the value of the second loop, which is a rune, and add a space to the end.
-5. Print a newline after the second loop completes.
-6. Call the alphabetTriangle() function. */
+Name: Sum
+
+""" The code above does the following, explained in English:
+1. Declare a function called add_numbers
+2. The function takes two arguments, a and b
+3. Return the sum of a and b
+4. Print the result of calling the function with 2 and 3 """
 
 Output:
 
-Root Language: GO
-Test Cases: Correct for Python and Javascript.
-Attempts: Python: 2, Javascript: 6
+Root Language: Python
+Test Cases: Correct for GO and Javascript.
+Attempts: GO: 3, Javascript: 1

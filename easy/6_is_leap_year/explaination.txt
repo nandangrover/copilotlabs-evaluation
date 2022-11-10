@@ -1,0 +1,12 @@
+Name: Is Leap year
+
+""" The code above does the following, explained in English:
+1. If the year is divisible by 4 and not 100, it is a leap year.
+2. If the year is divisible by 400, it is a leap year.
+3. Otherwise, it is not a leap year. """
+
+Output:
+
+Root Language: Python
+Test Cases: Correct for GO and Javascript.
+Attempts: GO: 1, Javascript: 2
