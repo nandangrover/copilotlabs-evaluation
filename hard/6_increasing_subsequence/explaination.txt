@@ -1,0 +1,19 @@
+Name: Sorted Squares
+* The code above does the following, explained in English:
+1. Initialize an array of sequences, where each index is the index of the previous number in the sequence.
+2. Initialize an array of sums, where each index is the maximum sum of the sequence up to that index.
+3. Initialize a maxSumIndex variable, which will eventually contain the index of the maximum sum.
+4. Iterate through the array, starting at the second number (index 1).
+5. For each number, iterate through the array from the beginning to the current number, and update the sums and sequences arrays accordingly.
+6. If the current number is not greater than the other number, but the sum of the other number plus the current number is greater than the sum of the current number, then update the sums and sequences arrays accordingly.
+7. If the sum of the current number is greater than the sum of the maxSumIndex, update the maxSumIndex.
+8. Once we've iterated through the array, we can calculate the max sum and the sequence of numbers.
+9. The max sum is just the sum at the maxSumIndex.
+10. We can calculate the sequence by starting at the maxSumIndex, appending the number at that index to the sequence, and then setting the index to the sequence at that index. We repeat this until the index is MinInt32.
+11. We can reverse the sequence and return it. */
+
+Output:
+
+Root Language: GO
+Test Cases: Correct for Python and Javascript.
+Attempts: Python: 3, Javascript: 1

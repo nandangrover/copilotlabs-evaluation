@@ -1,0 +1,20 @@
+Name: Three Number sum
+
+* The code above does the following, explained in English:
+1. Sort both arrays in ascending order;
+2. Initialize two indices: one for array1 and the other for array2;
+3. Initialize the smallest and current difference to the maximum integer value;
+4. Initialize the smallest pair;
+5. While the indices are valid, compare the elements at the indices;
+6. If the element in array1 is smaller, increment the index for array1;
+7. If the element in array2 is smaller, increment the index for array2;
+8. If the elements are equal, return the pair;
+9. If the current difference is smaller than the smallest difference, update the smallest difference and the smallest pair;
+10. Return the smallest pair. */
+
+
+Output:
+
+Root Language: GO
+Test Cases: Correct for Python and Javascript.
+Attempts: Python: 2, Javascript: 3

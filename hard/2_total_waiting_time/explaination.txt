@@ -1,0 +1,29 @@
+Name: Total Waiting Time
+
+* The code above does the following, explained in English:
+1. Sort the array
+2. Loop through the array, and for each element, calculate the number of queries left (we subtract 1 because we're looping from 0), and then multiply the number of queries left by the current element.
+3. Add the result of the above calculation to a variable called totalWaitingTime, and then return that variable.
+
+Let's say the array is [3, 2, 1, 2, 6].
+1. Sort the array -> [1, 2, 2, 3, 6]
+2. Loop through the array
+	- For 1, there are 4 queries left (5 - 1)
+	- For 2, there are 3 queries left (5 - 2)
+	- For 2, there are 2 queries left (5 - 3)
+	- For 3, there are 1 queries left (5 - 4)
+	- For 6, there are 0 queries left (5 - 5)
+3. Add up the results of the above calculations
+	- 1 * 4 = 4
+	- 2 * 3 = 6
+	- 2 * 2 = 4
+	- 3 * 1 = 3
+	- 6 * 0 = 0
+	- 4 + 6 + 4 + 3 + 0 = 17 */
+
+
+Output:
+
+Root Language: GO
+Test Cases: Correct for Python and Javascript.
+Attempts: Python: 4, Javascript: 1

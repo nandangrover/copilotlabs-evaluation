@@ -1,0 +1,15 @@
+Name: Tournament Winner
+
+/* The code above does the following, explained in English:
+1. Update the calendars to include every minute between "9:00" and the start of
+   the first meeting and between the end of the last meeting and "20:00".
+2. Merge the calendars into a new array of meetings.
+3. Flatten the calendar by merging overlapping meetings.
+4. Find the available slots between the flattened meetings that are long enough
+   for the requested meeting. */
+
+Output:
+
+Root Language: GO
+Test Cases: Incorrect for Python and Javascript.
+Attempts: Python: NA, Javascript: NA

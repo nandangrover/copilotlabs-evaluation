@@ -1,0 +1,21 @@
+Name: Three Number sum
+
+RESULT
+/* The code above does the following, explained in English:
+1. Sort the array
+2. Initialize an empty array of triplets
+3. Loop through the array, starting at 0, and ending at the second to last element.
+4. Initialize pointers for left and right, left being i + 1, and right being the last element of the array
+5. Loop while left is less than right
+6. Sum the current element, the value of the left pointer, and the value of the right pointer
+7. Check if the sum is equal to the target, if so, append the current element, the value of the left pointer, and the value of the right pointer to the triplets array
+8. Check if the sum is less than the target, if so, move the left pointer up by one
+9. Check if the sum is greater than the target, if so, move the right pointer down by one
+10. Return the triplets array */
+
+
+Output:
+
+Root Language: GO
+Test Cases: Correct for Python and Javascript.
+Attempts: Python: 1, Javascript: 2

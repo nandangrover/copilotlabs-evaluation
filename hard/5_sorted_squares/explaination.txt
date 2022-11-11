@@ -1,0 +1,20 @@
+Name: Sorted Squares
+/* The code above does the following, explained in English:
+1. Create an array that will hold the squares of the given array
+2. Create a pointer to the start of the given array
+3. Create a pointer to the end of the given array
+4. Create a loop that iterates through the array backwards
+5. Create a variable that holds the absolute value of the value at the start pointer
+6. Create a variable that holds the absolute value of the value at the end pointer
+7. If the value at the start pointer is greater than the value at the end pointer
+8. Assign the value at the start pointer squared to the end of the array
+9. Increment the start pointer
+10. Else, assign the value at the end pointer squared to the end of the array
+11. Decrement the end pointer
+12. Return the array */
+
+Output:
+
+Root Language: GO
+Test Cases: Correct for Python and Javascript.
+Attempts: Python: 1, Javascript: 2

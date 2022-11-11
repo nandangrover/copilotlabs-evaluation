@@ -1,0 +1,20 @@
+Name: Tournament Winner
+
+* The code above does the following, explained in English:
+1. We create a constant, HOME_TEAM_WON, which we set to 1. This is so that we can use the constant in our code, rather than using 1 directly. This makes our code more readable and easier to understand.
+2. We create a function, TournamentWinner, which takes in two parameters: competitions and results. The competitions parameter is a two-dimensional slice inside of which are string slices. The results parameter is a slice of integers. The function returns a string.
+3. We create a variable, currentBestTeam, which we set to an empty string. We also create a map, scores, which we set to a map of strings to integers. The key of the map is a string, the value is an integer. We set the value of the key currentBestTeam to 0.
+4. We create a for loop which loops through each index and item of the competitions parameter. We create a variable, result, which we set to the item at the same index of the results parameter. We create two variables, homeTeam and awayTeam, which we set to the first and second items of the competition item, respectively.
+5. We create a variable, winningTeam, which we set to awayTeam. If the result is equal to HOME_TEAM_WON, then we set the value of winningTeam to homeTeam.
+6. We call the updateScores function, passing in the winningTeam, 3, and scores as parameters.
+7. We create an if statement which checks if the value of the key winningTeam in the scores map is greater than the value of the key currentBestTeam in the scores map. If so, we set the value of currentBestTeam to winningTeam.
+8. We return currentBestTeam.
+9. We create a function, updateScores, which takes in three parameters: team, points, and scores. The team parameter is a string. The points parameter is an integer. The scores parameter is a map of strings to integers. The function does not return anything.
+10. We set the value of the key team in the scores map to the value of the key team in the scores map plus points.
+11. We create a main function which calls the TournamentWinner function, passing in the competitions and results variables as parameters. We then print the return value of the TournamentWinner function to the console. */
+
+Output:
+
+Root Language: GO
+Test Cases: Correct for Python and Javascript.
+Attempts: Python: 3, Javascript: 1
