@@ -1,0 +1,16 @@
+Name: Knapsack Problem
+
+""" The code above does the following, explained in English:
+1. Create a 2D array with len(items) rows and capacity columns
+2. Iterate through each item, and for each capacity up to the max capacity, check if we can
+   fit the current item in the knapsack. If we can, we take the max of either the value of
+   the current item + the value of the remaining capacity, or the value without the current
+   item. If we can't fit the current item, just take the value without the current item.
+3. The last element in the 2D array will be the max value
+4. Use the 2D array to figure out which items were actually used to get the max value """
+
+Output:
+
+Root Language: Python
+Test Cases: Correct for Javascript and Incorrect for GO.
+Attempts: Javascript: 1 , GO: NA

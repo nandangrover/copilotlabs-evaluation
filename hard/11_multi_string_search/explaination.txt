@@ -1,0 +1,11 @@
+Name: Multi String Search
+
+Output:
+/* The code above does the following, explained in English:
+1. Creates a new Trie and inserts all of the smallStrings into it.
+2. Iterates through bigString, starting at each character index, and finds all smallStrings contained in bigString starting at that index.
+3. Returns an array of booleans, where the ith boolean represents whether the ith smallString was contained in bigString. */
+
+Root Language: Javascript
+Test Cases: Correct for Python and GO.
+Attempts: Python: 4, GO: NA

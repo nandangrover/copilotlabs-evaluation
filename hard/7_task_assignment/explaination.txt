@@ -1,0 +1,33 @@
+Name: Sorted Squares
+/* The code above does the following, explained in English:
+1. Create a function called taskAssignment that takes in 2 parameters, k and tasks.
+2. Create a variable called pairedTasks and set it to an empty array.
+3. Create a variable called taskDurationToIndices and set it to the return value of the getTaskDurationToIndices function, passing in tasks as the argument.
+4. Create a variable called sortedTasks and set it to a copy of the tasks array, but sorted from least to greatest.
+5. Create a for loop that iterates from 0 to k - 1, with i being the index.
+6. Create a variable called task1Duration and set it to the value of sortedTasks at index i.
+7. Create a variable called indicesWithTask1Duration and set it to the value of the key task1Duration in the taskDurationToIndices object.
+8. Create a variable called task1Index and set it to the value of the last element in the indicesWithTask1Duration array.
+9. Create a variable called task2SortedIndex and set it to the length of the tasks array - 1 - i.
+10. Create a variable called task2Duration and set it to the value of sortedTasks at index task2SortedIndex.
+11. Create a variable called indicesWithTask2Duration and set it to the value of the key task2Duration in the taskDurationToIndices object.
+12. Create a variable called task2Index and set it to the value of the last element in the indicesWithTask2Duration array.
+13. Push an array containing task1Index and task2Index to the pairedTasks array.
+14. Return pairedTasks.
+15. Create a function called getTaskDurationToIndices that takes in a single parameter, tasks.
+16. Create a variable called taskDurationToIndices and set it to an empty object.
+17. Create a for loop that iterates from 0 to the length of tasks - 1, with i being the index.
+18. Create a variable called taskDuration and set it to the value of the tasks array at index i.
+19. Create an if statement that checks if the key taskDuration is in the taskDurationToIndices object.
+20. If true, push i to the value of the key taskDuration in the taskDurationToIndices object.
+21. Otherwise, set the value of the key taskDuration in the taskDurationToIndices object to an array containing i.
+22. Return taskDurationToIndices.
+23. Create a variable called tasks and set it to an array containing 1, 3, 5, 3, 1, 4.
+24. Create a variable called k and set it to 3.
+25. Log the return value of the taskAssignment function, passing in k and tasks as the arguments. */
+
+Output:
+
+Root Language: Javascript
+Test Cases: Correct for Python and GO.
+Attempts: Python: 1, GO: 1

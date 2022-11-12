@@ -1,0 +1,13 @@
+Name: Traverse Graph
+/* The code above does the following, explained in English:
+1. Create a 2D array of height + 1 by width + 1, and fill it with 0s.
+2. Set the first row and column to 1s.
+3. Loop through the 2D array, starting from the second row and second column.
+4. For each cell, set it to the sum of the cell above and to the left of it.
+5. When finished, return the bottom-right cell. */
+
+Output:
+
+Root Language: Javascript
+Test Cases: Correct for Python and GO.
+Attempts: Python: 1, GO: 2

@@ -1,0 +1,16 @@
+Name: Detect Arbitage
+
+RESULT
+""" The code above does the following, explained in English:
+1. The first step is to convert the exchange rates into -log10(rate). This is because we are going to use the Bellman-Ford algorithm to check if there's a negative-weight cycle. We need to use the -log10(rate) because the Bellman-Ford algorithm requires edge weights to be able to be added. Since log(a*b) = log(a) + log(b), we can convert all rates to -log10(rate) to use them as edge weights.
+2. We run the Bellman-Ford algorithm to detect any negative-weight cycles.
+    2.1. We initialize all of the distances to infinity except for the starting node, which is 0.
+    2.2. We run the Bellman-Ford algorithm n - 1 times, where n is the number of currencies. Since there are n currencies, there are n nodes in the graph. The Bellman-Ford algorithm runs n - 1 times because the longest path in a graph with n nodes is n - 1 edges.
+    2.3. We run the Bellman-Ford algorithm once more to detect if any of the node distances were updated, which means that there's a negative-weight cycle.
+3. The Bellman-Ford algorithm runs in O(n^3) time because there are three nested loops. The outermost loop runs n - 1 times, the middle loop runs n times, and the innermost loop runs n times. This gives us n * n * (n - 1) time complexity, which simplifies to O(n^3). The space complexity is O(n^2) because we have to store all of the edge weights in the graph. """
+
+Output:
+
+Root Language: Python
+Test Cases: Correct for Javascript and Incorrect for GO.
+Attempts: Javascript: 1 , GO: 4

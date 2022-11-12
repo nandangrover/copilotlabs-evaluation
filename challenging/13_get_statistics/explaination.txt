@@ -1,0 +1,27 @@
+Name: Get Statistics
+
+""" The code above does the following, explained in English:
+1. Sort the input list
+2. Calculate the length of the sorted input list
+3. Calculate the mean by summing the sorted input list and dividing it by the length of the list
+4. Calculate the middle index of the list by dividing the length of the list by 2
+5. Set the median to the middle index of the list by using list slicing
+6. Check if the length of the list is even by checking if the length of the list divided by 2 has a remainder of 0
+7. If the length of the list is even, set the middle number 1 to the middle index of the list by using list slicing
+8. If the length of the list is even, set the middle number 2 to the middle index of the list plus 1 by using list slicing
+9. If the length of the list is even, set the median to the sum of the middle number 1 and middle number 2 divided by 2
+10. Set a dictionary of the number counts by using a dictionary comprehension
+11. Set the mode to the key of the number counts dictionary that has the largest value
+12. Calculate the sample variance by summing the list comprehension of the difference between each number and the mean squared and dividing it by one less than the length of the list
+13. Calculate the sample standard deviation by raising the sample variance to the power of 0.5
+14. Calculate the mean standard error by dividing the sample standard deviation by the length of the list to the power of 0.5
+15. Calculate the z-score standard error by multiplying 1.96 by the mean standard error
+16. Calculate the mean confidence interval by subtracting the z-score standard error from the mean and adding the z-score standard error to the mean
+17. Return a dictionary of the mean, median, mode, sample variance, sample standard deviation, and mean confidence interval
+18. Print the statistics dictionary """
+
+Output:
+
+Root Language: GO
+Test Cases: Incorrect for Python and Javascript.
+Attempts: Python: NA, Javascript: NA

@@ -1,0 +1,12 @@
+Name: Longest Balanced Substring
+
+""" The code above does the following, explained in English:
+1. Get the longest balanced substring in the string, starting from the left
+2. Get the longest balanced substring in the string, starting from the right
+3. Return the longest of the two values found in 1 and 2 """
+
+Output:
+
+Root Language: Python
+Test Cases: Correct for Javascript and Incorrect for GO.
+Attempts: Javascript:  1, GO: 1

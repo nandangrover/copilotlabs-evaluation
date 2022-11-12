@@ -1,0 +1,30 @@
+Name: Suffix Trie Construction
+
+""" The code above does the following, explained in English:
+1. We define a function called countInversions which takes in an array as argument. This function returns the count of inversions in the array.
+2. We define another function called countSubArrayInversions which takes in an array, a start index, and an end index as arguments. This function returns the count of inversions in the subarray of the array from start to end (not including end).
+3. We define a third function called mergeSortAndCountInversions which takes in an array, a start index, a middle index, and an end index as arguments. This function merges the subarrays of the array from start to middle and from middle to end (not including end), and returns the count of inversions in the process.
+4. We define a fourth function called mergeSortAndCountInversions which takes in an array, a start index, a middle index, and an end index as arguments. This function merges the subarrays of the array from start to middle and from middle to end (not including end), and returns the count of inversions in the process.
+5. We initialize a variable called sortedArray to an empty array.
+6. We initialize a variable called left to the start index.
+7. We initialize a variable called right to the middle index.
+8. We initialize a variable called inversions to zero.
+9. We initialize a while loop which runs while the left index is less than the middle index and the right index is less than the end index.
+10. We initialize an if statement which runs if the element at index left in the array is less than or equal to the element at index right in the array. If this is true, we append the element at index left in the array to sortedArray, and increment left by one.
+11. We initialize an else statement which runs if the element at index left in the array is greater than the element at index right in the array. If this is true, we increment inversions by the difference between the middle index and the left index, append the element at index right in the array to sortedArray, and increment right by one.
+12. We append the subarray of the array from left to middle to sortedArray.
+13. We append the subarray of the array from right to end to sortedArray.
+14. We initialize a for loop which iterates through the sortedArray.
+15. We set the element at index start plus the index in sortedArray in the array to the element at index in sortedArray in sortedArray.
+16. We return inversions.
+17. We return the return value of the countSubArrayInversions function when we pass in the array, zero, and the length of the array.
+18. We return the return value of the countSubArrayInversions function when we pass in the array, zero, and the length of the array.
+19. We return the return value of the countSubArrayInversions function when we pass in the array, zero, and the length of the array.
+20. We print the return value of the countInversions function when we pass in [8, 5, 2, 9, 5, 6, 3].
+21. We print the return value of the countInversions function when we pass in [1, 2, 3, 4, 5, 6, 7, 8]. """
+
+Output:
+
+Root Language: Python
+Test Cases: Correct for Javascript and GO.
+Attempts: Javascript: 1, GO: 1

@@ -1,0 +1,17 @@
+Name: Suffix Trie Construction
+
+/* The code above does the following, explained in English:
+1. It creates an empty object with the name root, and the name endSymbol set to the string literal '*'.
+2. It creates a method populateSuffixTrieFrom() that accepts a string argument. This method loops through the string from the first letter to the last letter, and calls the insertSubstringStartingAt() method on each letter. This method loops through the string from the first letter to the last letter, and creates a new object for each letter. It does this by creating a new variable node that is set to the root, and then looping through the string from the first letter to the last letter. For each letter, it checks if the letter is in the node. If it is, it updates the node variable to be the node at the letter. If it isn't, it creates a new object at that letter and updates the node variable to be the node at the letter. This continues until the end of the string is reached, and then it adds the endSymbol to the node to indicate that this is the end of the string.
+3. It creates a method contains() that accepts a string argument. This method loops through the string from the first letter to the last letter, and creates a new object for each letter. It does this by creating a new variable node that is set to the root, and then looping through the string from the first letter to the last letter. For each letter, it checks if the letter is in the node. If it is, it updates the node variable to be the node at the letter. If it isn't, it returns false. This continues until the end of the string is reached, and then it checks if the endSymbol is in the node. If it is, it returns true. If it isn't, it returns false.
+4. It creates a new object called trie that is an instance of the SuffixTrie class, and passes in the string 'babc' as the argument.
+5. It logs the boolean result of calling the contains() method on the trie object, passing in the string 'abc' as the argument.
+6. It creates a new object called trie2 that is an instance of the SuffixTrie class, and passes in the string 'babc' as the argument.
+7. It logs the boolean result of calling the contains() method on the trie2 object, passing in the string 'ab' as the argument.
+8. It exports the SuffixTrie class so that it can be imported and used in other files. */
+
+Output:
+
+Root Language: Javascript
+Test Cases: Correct for Python and GO.
+Attempts: Python: 2, GO: 4

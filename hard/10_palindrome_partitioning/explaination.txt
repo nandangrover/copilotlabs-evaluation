@@ -1,0 +1,16 @@
+Name: Traverse Graph
+
+/* The code above does the following, explained in English:
+1. Create a 2D array of booleans. Each boolean represents whether or not the substring from i to j is a palindrome.
+2. Loop through the array and populate it with the base cases: substrings of length 1 are palindromes, and substrings of length 2 are palindromes if the first and last characters are the same.
+3. Loop through the array and populate it with the recursive case: substrings of length 3 and greater are palindromes if the first and last characters are the same and the substring between them is a palindrome.
+4. Create an array of integers, where each integer represents the minimum number of cuts needed to make the substring from 0 to i a palindrome. The array is initialized with Infinity for each index, except for the first index, which is initialized with 0.
+5. Loop through the array and populate it with the base case: if the substring from 0 to i is a palindrome, then the minimum number of cuts is 0.
+6. Loop through the array and populate it with the recursive case: if the substring from 0 to i is not a palindrome, then the minimum number of cuts is the minimum of the minimum number of cuts for substrings from 0 to i minus 1 plus 1, and the minimum number of cuts for substrings from j to i plus 1, where j is the first index after 0 where the substring from j to i is a palindrome.
+7. Return the minimum number of cuts needed to make the entire string a palindrome. */
+
+Output:
+
+Root Language: Javascript
+Test Cases: Incorrect for GO and correct for Python.
+Attempts: Python: 1, GO: NA

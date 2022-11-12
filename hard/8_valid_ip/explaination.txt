@@ -1,0 +1,27 @@
+Name: Valid Ip
+
+/* The code above does the following, explained in English:
+1. We create a function called validIPAddresses that takes in a string and returns an array.
+2. We create a variable called ipAddressesFound and initialize it as an empty array.
+3. We loop through the string, and for each character in the string, we create a new array of 4 elements.
+4. We then assign the first element of this array as the current string from the beginning of the string to the current character in the string.
+5. If the first element that we assigned is not a valid part of an IP address, then we move on to the next character in the string.
+6. If the first element is a valid part of an IP address, we then loop through the rest of the string, starting from the next character after the current character.
+7. For each character after the current character, we assign the second element of the array as the current string from the current character to the next character.
+8. If the second element that we assigned is not a valid part of an IP address, then we move on to the next character in the string.
+9. If the second element is a valid part of an IP address, we then loop through the rest of the string, starting from the next character after the current character.
+10. For each character after the current character, we assign the third element of the array as the current string from the current character to the next character.
+11. If the third element that we assigned is not a valid part of an IP address, then we move on to the next character in the string.
+12. If the third element is a valid part of an IP address, we then assign the fourth element of the array as the current string from the current character to the last character of the string.
+13. If the fourth element that we assigned is a valid part of an IP address, then we push the array of 4 elements to the ipAddressesFound array.
+14. Finally, we return the ipAddressesFound array.
+15. We create a function called isValidPart that takes in a string and returns a boolean.
+16. We create a variable called stringAsInt and assign it as the current string converted to an integer.
+17. If the integer is greater than 255, then we return false.
+18. We then return the length of the current string is equal to the length of the integer converted from the current string. */
+
+Output:
+
+Root Language: Javascript
+Test Cases: Incorrect for Python and GO.
+Attempts: Python: NA, GO: NA

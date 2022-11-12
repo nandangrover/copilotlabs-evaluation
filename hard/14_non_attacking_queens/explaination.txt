@@ -1,0 +1,14 @@
+Name: Suffix Trie Construction
+
+"" The code above does the following, explained in English:
+1. It checks whether a given position is non-attacking.
+2. It places a queen at a given position.
+3. It removes a queen from a given position.
+4. It counts the number of non-attacking placements for a given row, using recursion.
+5. It counts the total number of non-attacking placements, given a board size. """
+
+Output:
+
+Root Language: Python
+Test Cases: Correct for Javascript and GO.
+Attempts: Javascript: 1, GO: 1

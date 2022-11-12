@@ -1,0 +1,39 @@
+Name: Knuth Morris Pratt Algorithm
+
+""" The code above does the following, explained in English:
+1. Create a helper method that builds the pattern:
+    a. Create a pattern array of size substring.length and fill it with -1
+    b. Create two pointers, one at index 0 and the other at index 1
+    c. While the pointer at index 1 is smaller than the size of the substring:
+        i. If the character at the index of the pointer at index 1 is equal to the character at the index of the pointer at index 0:
+            i. Set the value of the pattern at the index of the pointer at index 1 to the value of the pointer at index 0
+            ii. Increment both pointers
+        ii. Else if the value of the pointer at index 0 is greater than 0:
+            i. Set the value of the pointer at index 0 to the value of the pattern at the index of the value of the pointer at index 0 minus 1
+        iii. Else:
+            i. Increment the pointer at index 1
+    d. Return the pattern
+2. Create another helper method that does the matching:
+    a. Create two pointers, one at index 0 and the other at index 0
+    b. While the pointer at index 0 plus the length of the substring minus the value of the pointer at index 1 is less than or equal to the length of the string:
+        i. If the character at the index of the pointer at index 0 is equal to the character at the index of the pointer at index 1:
+            i. If the value of the pointer at index 1 is equal to the length of the substring minus 1:
+                i. Return True
+            ii. Increment both pointers
+        ii. Else if the value of the pointer at index 1 is greater than 0:
+            i. Set the value of the pointer at index 1 to the value of the pattern at the index of the value of the pointer at index 1 minus 1
+        iii. Else:
+            i. Increment the pointer at index 0
+    c. Return False
+3. Create a method that calls the two helper methods:
+    a. Call the buildPattern helper method and pass in the substring
+    b. Call the doesMatch helper method and pass in the string, substring, and pattern
+    c. Return the result of the doesMatch helper method
+4. Print the result of the knuthMorrisPrattAlgorithm method and pass in 'aefoaefcdaefcdaed' and 'aefcdaed'
+5. Print the result of the knuthMorrisPrattAlgorithm method and pass in 'aefoaefceaefcdaet' and 'aefcdaed' """
+
+Output:
+
+Root Language: Python
+Test Cases: Correct for Javascript and GO.
+Attempts: Javascript: 1, GO: 4

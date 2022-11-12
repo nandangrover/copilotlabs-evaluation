@@ -1,0 +1,12 @@
+Name: Underscorify Substring
+
+""" The code above does the following, explained in English:
+1. Get the locations of the substring in the input string.
+2. Collapse the locations to get a list of ranges that need underscores.
+3. Add the underscores to the input string. """
+
+Output:
+
+Root Language: Python
+Test Cases: Correct for Javascript and Incorrect for GO.
+Attempts: Javascript: 2 , GO: NA

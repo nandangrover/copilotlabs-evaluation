@@ -1,0 +1,14 @@
+Name: laptop Rentals
+
+"" The code above does the following, explained in English:
+1. Sort the start times and end times.
+2. While the start iterator is less than the length of the times, do the following:
+    - If the start time of the current interval is greater than or equal to the end time of the current interval, we know that we can use that laptop for another rental. So, we decrease the number of used laptops by 1 and increase the end iterator by 1 to move on to the next interval.
+    - Increase the number of used laptops by 1 and increase the start iterator by 1 to move on to the next interval.
+3. Return the number of used laptops. """
+
+Output:
+
+Root Language: Python
+Test Cases: Correct for Javascript and Incorrect for GO.
+Attempts: Javascript: 2 , GO: 3
