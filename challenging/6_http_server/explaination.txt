@@ -1,0 +1,16 @@
+Name: Http Server
+
+* The code above does the following, explained in English:
+1. We import the go "fmt" and "net/http" packages, which are included with the go distribution.
+2. We define the main() function, which is the entry point of our program.
+3. We call http.HandleFunc() to register our HelloServer function as the handler function for the "/" URL pattern.
+4. We call http.ListenAndServe() to start the web server listening on port 8080.
+5. We define our HelloServer function, which responds to requests by writing the string "Hello, " plus the request path to the http.ResponseWriter object. */
+
+Output:
+
+Root Language: GO
+Test: Correct for Python and partially coorect for Javascript.
+Attempts: Python: 4, Javascript: 2
+
+Test cases were not written and instead human testing was done to test the game.

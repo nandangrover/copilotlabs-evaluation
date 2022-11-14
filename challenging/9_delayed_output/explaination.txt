@@ -1,0 +1,14 @@
+Name: Delayed Output
+
+/* The code above does the following, explained in English:
+1. Declare a function called log that takes three parameters, s, delay, and randomized.
+2. For each character in the string s:
+3. Write the character to the screen (process.stdout.write(c)).
+4. Wait for delay milliseconds (await sleep(delay)).
+5. If randomized is true, wait a random amount of time (Math.random() * delay). */
+
+Output:
+
+Root Language: Javascript
+Test: Incorrect for Python and Correct GO.
+Attempts: Python: NA, GO: 2

@@ -1,0 +1,14 @@
+Name: Multinomial NB
+
+""" The code above does the following, explained in English:
+1. count how many articles there are per tag
+2. calculate the prior probability of each tag
+3. count how many times each word appears in each tag
+4. calculate the likelihood of each word for each tag
+5. calculate the posterior probability for each tag """
+
+Output:
+
+Root Language: Python
+Test Cases: Incorrect for Javascript and GO.
+Attempts: GO: NA, Javascript: NA

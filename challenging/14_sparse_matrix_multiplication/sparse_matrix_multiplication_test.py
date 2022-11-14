@@ -1,6 +1,5 @@
 from sparse_matrix_multiplication import sparse_matrix_multiplication
 import unittest
-
 class TestProgram(unittest.TestCase):
     def test_case_1(self):
         matrix_a = [

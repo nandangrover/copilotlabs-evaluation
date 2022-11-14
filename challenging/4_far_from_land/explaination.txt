@@ -1,0 +1,12 @@
+Name: Longest Far From land
+
+/* The code above does the following, explained in English:
+1. We first find all the lands, and if all are lands, then we return -1.
+2. Next, we start a BFS, starting from all the lands, and we mark each cell we visit as 1.
+3. We continue until all the lands are visited, and we count the distance. */
+
+Output:
+
+Root Language: GO
+Test Cases: Correct for Python and Javascript.
+Attempts: Python: 2, Javascript: 1

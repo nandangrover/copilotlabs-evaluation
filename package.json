@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jest": "^29.3.0"
+    "jest": "^29.3.0",
+    "json-server": "^0.17.1",
+    "pandas-js": "^0.2.4",
+    "prompt-sync": "^4.2.0",
+    "request": "^2.88.2"
   }
 }

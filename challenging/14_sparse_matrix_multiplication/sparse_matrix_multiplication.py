@@ -13,7 +13,6 @@ def sparse_matrix_multiplication(matrix_a, matrix_b):
                 matrix_c[i][j] += sparse_a[(i, k)] * sparse_b[(k, j)]
     return matrix_c
 
-
 def get_dict_of_nonzero_cells(matrix):
     dict_of_nonzero_cells = {}
     for i in range(len(matrix)):
@@ -21,7 +20,6 @@ def get_dict_of_nonzero_cells(matrix):
             if matrix[i][j] != 0:
                 dict_of_nonzero_cells[(i, j)] = matrix[i][j]
     return dict_of_nonzero_cells
-
 
 matrix_a = [
     [0, 2, 0],

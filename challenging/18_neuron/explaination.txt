@@ -1,0 +1,12 @@
+Name: Neuron
+
+""" The code above does the following, explained in English:
+1. Create a Neuron instance, which is the class that contains the weights and the data.
+2. The neuron is trained on the examples passed to it.
+3. The neuron is asked to predict the probability of the label for the features [0.79, 0.89, 0.777]. """
+
+Output:
+
+Root Language: Python
+Test Cases: Incorrect for Javascript and correct for GO.
+Attempts: GO: 4, Javascript: NA

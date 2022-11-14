@@ -1,0 +1,25 @@
+Name: Longest String Chain
+
+* The code above does the following, explained in English:
+1. Imagine a graph where each string is a node, and there's a directed edge
+from string1 to string2 if string1 is exactly one character shorter than
+string2. The strings form a string chain if there's a path from string1 to
+string2.
+2. For every string, imagine the longest string chain that starts with it. Set
+up every string to point to the next string in its respective longest string
+chain. Also keep track of the lengths of these longest string chains.
+3. Sort the strings based on their length so that whenever we visit a string
+(as we iterate through them from left to right), we can already have computed
+the longest string chains of any smaller strings.
+4. For every string, try removing every letter of the current string to see if
+the remaining strings form a string chain.
+5. Update the string chain of the current string only if the smaller string
+leads to a longer string chain.
+6. Find the string that starts the longest string chain.
+7. Starting at the string found above, build the longest string chain. */
+
+Output:
+
+Root Language: GO
+Test Cases: Correct for Python and Javascript.
+Attempts: Python: 3, Javascript: 4

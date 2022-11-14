@@ -1,0 +1,15 @@
+Name: Json Server
+
+/* The code above does the following, explained in English:
+1. Import json-server and create a server
+2. Create a router with db.json as the source
+3. Set default middlewares (logger, static, cors and no-cache)
+4. Add custom route /echo that returns the query string as JSON
+5. Use default router
+6. Start the server on port 3000 */
+
+Output:
+
+Root Language: Javascript
+Test: Incorrect for Python and GO.
+Attempts: Python: NA, GO: NA

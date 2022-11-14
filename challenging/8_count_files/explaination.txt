@@ -1,0 +1,14 @@
+Name: Count Files
+
+* The code above does the following, explained in English:
+1. Import required modules: resolve and readdir.
+2. Function getFiles returns a promise.
+3. This promise resolves to an array of files, using the readdir module.
+4. This promise resolves to a flat array of files.
+5. This promise resolves to an array of files, filtered to include only files that end with .js, .test.js, .go, .py, or .txt. */
+
+Output:
+
+Root Language: Javascript
+Test: Incorrect for Python and GO.
+Attempts: Python: NA, GO: NA

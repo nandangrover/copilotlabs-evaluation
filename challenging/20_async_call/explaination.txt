@@ -1,0 +1,18 @@
+Name: Async Call
+
+* The code above does the following, explained in English:
+1. Declare a function called resolveAfter2Seconds() that returns a promise
+2. Declare a new Promise() object, which is the return value of the function.
+3. The Promise() object takes an argument, which is a function with one parameter, resolve. 
+4. The setTimeout() function calls the resolve() function after two seconds.
+5. Declare an async function called asyncCall().
+6. Call the async function.
+7. The async function calls the resolveAfter2Seconds() function.
+8. The async function waits until the resolveAfter2Seconds() function returns a value.
+9. The async function logs the value that was returned from the resolveAfter2Seconds() function. */
+
+Output:
+
+Root Language: Python
+Test Cases: Incorrect for Javascript and GO.
+Attempts: GO: NA, Javascript: NA

@@ -1,0 +1,18 @@
+Name: Movie list fetch
+
+/* The code above does the following, explained in English:
+1. Import the 'request' module.
+2. Define a function, getMovieList, that takes no arguments.
+3. Inside the function, make a GET request to the Studio Ghibli API.
+4. If the request fails, print an error message to the console.
+5. If the request succeeds, print a message to the console.
+6. Convert the response from the API into a JavaScript object.
+7. Loop through each movie in the list of movies.
+8. For each movie, print the movie's title and release date to the console.
+9. Call the getMovieList function. */
+
+Output:
+
+Root Language: Javascript
+Test: Correct for Python and Incorrect for GO.
+Attempts: Python: 1, GO: NA

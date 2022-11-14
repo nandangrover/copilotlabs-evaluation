@@ -1,0 +1,19 @@
+Name: Number Guessing Game
+
+/* The code above does the following, explained in English:
+1. Create a prompt for the user to enter input.
+2. Create a random number between 1 and 10.
+3. Create a variable to determine if the user has guessed the correct number.
+4. Create a while loop to prompt the user for input until the user has guessed the correct number.
+5. Prompt the user for input.
+6. Convert the user's input from a string to a number.
+7. Compare the user's input to the random number.
+8. Print a message to the console based on the user's input.
+9. If the user guessed the correct number, set the variable to true.
+10. If the user guessed the incorrect number, prompt the user for input again. */
+
+Output:
+
+Root Language: Javascript
+Test: Correct for Python and Incorrect for GO.
+Attempts: Python: 1, GO: NA

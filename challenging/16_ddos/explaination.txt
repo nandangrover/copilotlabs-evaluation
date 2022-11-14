@@ -1,0 +1,14 @@
+Name: DDos
+
+""" The code above does the following, explained in English:
+1. Create a socket connection to the target server.
+2. Send a fake HTTP GET request.
+3. Close the socket connection.
+4. Print the number of connections.
+5. Repeat the process 500 times. """
+
+Output:
+
+Root Language: Python
+Test Cases: Incorrect for GO and Javascript.
+Attempts: GO: NA, Javascript: NA

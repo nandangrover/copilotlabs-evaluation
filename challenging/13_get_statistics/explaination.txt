@@ -22,6 +22,6 @@ Name: Get Statistics
 
 Output:
 
-Root Language: GO
-Test Cases: Incorrect for Python and Javascript.
-Attempts: Python: NA, Javascript: NA
+Root Language: Python
+Test Cases: Incorrect for GO and Javascript.
+Attempts: GO: NA, Javascript: NA

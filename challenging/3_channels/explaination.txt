@@ -1,0 +1,12 @@
+Name: Longest String Chain
+
+/* The code above does the following, explained in English:
+1. Create a channel of type int that we can send and receive values on
+2. Call the CalculateValue function in a separate goroutine, passing in the channel
+3. Wait for a value to be sent back on the channel, then print it out */
+
+Output:
+
+Root Language: JS
+Test Cases: Incorrect for Python and Javascript.
+Attempts: Python: 3, Javascript: 4

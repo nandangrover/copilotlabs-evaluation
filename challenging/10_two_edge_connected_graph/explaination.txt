@@ -1,0 +1,19 @@
+Name: Two edge connected graph
+
+/* The code above does the following, explained in English:
+1. It checks if the graph represented by the edges is two-edge-connected.
+2. If the graph is two-edge-connected, it returns true. Otherwise, it returns false.
+3. It does this by detecting if there are any bridges in the graph.
+4. A bridge is an edge that, if removed, would cause the graph to become disconnected.
+5. If there are no bridges, the graph is two-edge-connected.
+6. It does this by using DFS to find the earliest arrival time of each vertex.
+7. It also keeps track of the arrival time of each vertex's parent.
+8. If a vertex has a child with an earlier arrival time, then there is a bridge.
+9. If there is a bridge, the graph is not two-edge-connected.
+10. It also returns false if a vertex is connected to itself. */
+
+Output:
+
+Root Language: Javascript
+Test: Correct for Python and GO.
+Attempts: Python: 1, GO: 2

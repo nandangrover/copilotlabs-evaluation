@@ -1,0 +1,7 @@
+Nandans-MacBook-Pro:12_number_guessing nandangrover$ node number_guessing.js
+Guess a number from 1 to 10: 1
+Sorry, guess again!
+Guess a number from 1 to 10: 2
+Sorry, guess again!
+Guess a number from 1 to 10: 3
+Congrats, you got it!

@@ -1,0 +1,18 @@
+Name: K-Means Algorithm
+
+""" The code above does the following, explained in English:
+1. It creates a Centroid class, which has a location and a set of users that are closest to it.
+2. It creates a function to calculate the Manhattan Distance between two vectors.
+3. It creates a function to calculate the average of a set of vectors.
+4. It creates a function to calculate the K-Means.
+5. It creates a dictionary that maps a user to their features.
+6. It defines the number of features per user.
+7. It defines the number of centroids to use.
+8. It calculates the centroids.
+9. It prints out the centroid locations. """
+
+Output:
+
+Root Language: Python
+Test Cases: Incorrect for GO and Javascript.
+Attempts: GO: NA, Javascript: NA

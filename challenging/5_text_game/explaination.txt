@@ -1,0 +1,31 @@
+Name: Text Game
+
+/* The code above does the following, explained in English:
+1. Create a struct called Game
+2. Create a struct called Event
+3. Create a struct called Location
+4. Create a map of Events
+5. Create a map of Locations
+6. Create a Game struct, give it a starting health of 100 and set the current location to the Bridge
+7. Call the Play() method on the Game struct
+8. In the Play() method, print the welcome message
+9. In the Play() method, print the description of the location and process the events
+10. In the Play() method, if the player's health is less than or equal to 0, then print a death message and return from the Play() method
+11. In the Play() method, print the player's health
+12. In the Play() method, print a list of transitions from the current location
+13. In the Play() method, prompt the player for input on where to go next
+14. In the Play() method, set the current location to the user's choice
+15. In the ProcessEvents() method, loop over the events in the events slice
+16. In the ProcessEvents() method, call the ProcessEvent() method on each event and add the returned health to the player's current health
+17. In the ProcessEvent() method, create a random number generator
+18. In the ProcessEvent() method, if the event's chance is greater than or equal to a random number from 1 to 100, then print the event's description and add the event's health to the player's current health
+19. In the ProcessEvent() method, if the event has an Evt field, then call the ProcessEvent() method on that event and add the returned health to the player's current health
+20. In the main() method, call the Play() method on the game struct */
+
+Output:
+
+Root Language: GO
+Test: Correct for Python and Incorrect for Javascript.
+Attempts: Python: 4, Javascript: NA
+
+Test cases were not written and instead human testing was done to test the game.
